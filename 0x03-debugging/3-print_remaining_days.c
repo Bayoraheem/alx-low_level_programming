@@ -1,12 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stdio.h>
-
-void positive_or_negative(int i);
-
-int largest_number(int a, int b, int c);
-
 #include <stdio.h>
 /**
  * print_remaining_days - takes a date and prints how many days are
@@ -43,4 +34,3 @@ void print_remaining_days(int month, int day, int year)
 		}
 	}
 }
-#endif /* MAIN_H */
